@@ -8,11 +8,17 @@ eleventyNavigation:
 ---
 
 <form name="contact" method="POST" data-netlify="true">
-        <label>First name: <br>
-        <input type="text" id="first name" name="first name" /></label><br>
-        <label>Surname: <br>
-        <input type="text" id="surname" name="surname" /></label><br>
-        <label>Email: <br><input type="email" id="email" name="email" /></label><br>
+        <label>*First name: <br>
+        <input type="text" id="first name" name="first name" required></label><br>
+        <label>*Surname: <br>
+        <input type="text" id="surname" name="surname" required></label><br>
+        <label>*Email: <br><input type="email" id="email" name="email" required></label><br>
         <label>Message: <br><textarea name="message"></textarea></label><br>
-        <button class="form_submit" type="submit">Send</button>
+        
+        <input type="checkbox" id="terms" name="terms" value="agreed" required>
+        <label for="terms"> *Please tick here to agree to T&Cs</label><br>
+        
+        <button class="m-2" class="form_submit" type="submit">Send</button><br>
+
+        <p>All fields marked with an asterix * are required</p>
   </form>
