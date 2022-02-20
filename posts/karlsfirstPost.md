@@ -12,6 +12,9 @@ layout: layouts/post.njk
 1. ordered list 
 2. ## headers
 
+## New branch
+
+This paragraph has been created to showcase working with version control and new branches
 
 ## Lorem Ipsum
 
