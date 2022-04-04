@@ -10,15 +10,17 @@ layout: layouts/post.njk
 
 Comments are used for adding further detail to code if required. It helps readability for yourself and other people working on your code. 
 
-`function percentageCalculator() {`
-  `let percentage = document.getElementById("percentage").value; // value grabbed from HTML file with id percentage`
-  `let number = document.getElementById("number").value; // value grabbed from HTML file with id number`
-  `let result = percentage * (number / 100); // line which carries out the calculation`
+<pre><code>
+function percentageCalculator() {
+  let percentage = document.getElementById("percentage").value; // value grabbed from HTML file with id percentage
+  let number = document.getElementById("number").value; // value grabbed from HTML file with id number
+  let result = percentage * (number / 100); // line which carries out the calculation
   
-  `document.getElementById("result").value = result; // value assigned into HTML element with id of result`
+  document.getElementById("result").value = result; // value assigned into HTML element with id of result
   
-  `console.log(result);`
-`}`
+  console.log(result);
+}
+</code></pre>
 
 
 # Pseudocode
