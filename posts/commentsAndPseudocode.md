@@ -25,18 +25,27 @@ Comments are used for adding further detail to code if required. It helps readab
 Pseudo code is a way to write algorithms in a language such as english which is intended for people to read and understand, as opposed to computers. It is useful for planning purposes and a way for people to understand programs without the need to know code. 
 
 ## fixStart
+<ul>
 create fixStart function which takes an input_string
+    <ul>
     create new variable firstCharacter which is 1st character of input_string
     create new empty variable called output_string
     LOOP through each character in the input_string using string length as iterator
+        <ul>
         compare each character to the firstCharacter variable
         IF 1st character of input_string
+            <ul>
             add character into output_string
+            </ul>
         ELSE IF character iteration equals firstCharacter
+            <ul>
             add character * into output_string
+            </ul>
         ELSE add non matching character into output_string
+        </ul>
     RETURN output_string
-
+    </ul>
+<ul>
 ## reading list
  create a variable which is an array of objects containing book title, author and alreadyRead (true/false)
  LOOP over each object using array length
