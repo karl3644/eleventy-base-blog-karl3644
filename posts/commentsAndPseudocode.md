@@ -45,19 +45,20 @@ create fixStart function which takes an input_string
         </ul>
     RETURN output_string
     </ul>
-<ul>
+</ul>
 
 ## reading list
+
 <ul>
 create a variable which is an array of objects containing book title, author and alreadyRead (true/false)
     <ul>
-     LOOP over each object using array length
-     check the alreadyRead key
-     IF alreadyRead is true
+    LOOP over each object using array length
+    check the alreadyRead key
+    IF alreadyRead is true
         <ul>
         console log "You have already read ${title} + ${author}
         </ul>
-     ELSE alreadyRead is false
+    ELSE alreadyRead is false
         <ul>
         console log "you still need to read ${title} + ${author}
         </ul>
