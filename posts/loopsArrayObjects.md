@@ -24,16 +24,15 @@ The below is a nested for loop. The loop starts at 1 continues running whilst th
 
 The below is an object. It is similar to an array but contains both keys and values.
 
-<ul>
+<pre><code>
 const favRecipe = {
-    <ul>
   title: "bolognese",
   servings: 4,
   ingredients: ["onion", "garlic", "tomatoes", "mince meat"],
   diections: ["cook onions until brown", "add mince and brown", "add garlic and cook for a further minute", "add tomato sauce and reduce"]
-  </ul>
 };
-</ul>
+</code></pre>
+
 
 This for..in loop iterates over the object and prints out the key and value:
 
