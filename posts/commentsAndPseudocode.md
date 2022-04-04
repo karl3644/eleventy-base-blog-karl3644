@@ -1,5 +1,5 @@
 ---
-title: Pseudo Code.
+title: Pseudo Code and Comments.
 description: Lesson on Pseudo Code.
 date: 2022-03-05
 tags: kp
