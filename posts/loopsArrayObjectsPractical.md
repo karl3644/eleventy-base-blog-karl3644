@@ -45,12 +45,13 @@ function shopping(cartArray, discountAmount, type) {
 console.log("£" + shopping(shoppingCart, discount, "any"));
 </code></pre>
 
-The function takes an array and a type as arguments. With this information the function loops over the object searching for the type (food, alcohol, home) and applies a discount to any item with the type entered. Each iteration increases the totalPrice array by the amount and then return this to 2 decimals places.
+The function takes an array, a discount amount and a type as arguments. With this information the function loops over the object searching for the type (food, alcohol, home) and applies the discount from a variable to any item with the type entered. Each iteration increases the totalPrice array by the amount and then returns this to 2 decimals places.
 
 If the type argument is entered as "any" then the discount applies to all items. 
 
 ## Shopping cart parts 4-5
 
+We are using the same object as the above but this time returning items dependant upon if their price is between a certain value range.
 
 <pre><code>
  let shoppingCart = [
@@ -86,3 +87,9 @@ function priceSplit(cart, lowPrice, highPrice, quantity) {
 console.log(priceSplit(shoppingCart, 2, 5, true));
 console.log(priceSplit(shoppingCart, 2, 5, false));
 </code></pre>
+
+The new function takes an object, two prices and a boolean as arguments.
+
+If the quantity argument is true then the item quantity is multiplied by the item price. If this calculated value is between the two values entered (2 - 5 in this example) then the item is added to a new array and returned once all items have been checked.
+
+If the quantity argument is false then the loop simply checks if the single item value (regardless of quantity) is between the two values and returns these items.
