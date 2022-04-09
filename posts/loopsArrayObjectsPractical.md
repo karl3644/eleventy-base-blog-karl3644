@@ -10,6 +10,8 @@ layout: layouts/post.njk
 
 ## Shopping cart parts 1-3
 
+In this practical we took an object and created a function to apply a discount to certain itmes. 
+
 <pre><code>
 let shoppingCart = [
   { name: "loaf of bread", type: "food", quantity: 1, price: 0.85 },
@@ -42,6 +44,10 @@ function shopping(cartArray, discountAmount, type) {
 
 console.log("£" + shopping(shoppingCart, discount, "any"));
 </code></pre>
+
+The function takes an array and a type as arguments. With this information the function loops over the object searching for the type (food, alcohol, home) and applies a discount to any item with the type entered. Each iteration increases the totalPrice array by the amount and then return this to 2 decimals places.
+
+If the type argument is entered as "any" then the discount applies to all items. 
 
 ## Shopping cart parts 4-5
 
