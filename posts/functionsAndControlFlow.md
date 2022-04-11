@@ -32,7 +32,7 @@ concatName("Karl", "Higgins")
 
 <pre><code>
 function updatedConcatName(firstName, lastName) {
-    return ``My name is ${firstName} ${lastName} by using a return statement.``;
+    return `My name is ${firstName} ${lastName} by using a return statement.`;
 }
 
 console.log(updatedConcatName("Karl", "Higgins"));
