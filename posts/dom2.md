@@ -25,7 +25,7 @@ Buttons were created with a class of `buttonFilter`. Each animal is given a butt
 
 A class of `imageFilter` has been added to each img element, and an attribute has been added to identify each animal `animal="panda"`
 <pre><code>
-&lt;<img class="imageFilter" animal="panda" alt="sleeping" src="">&gt;
+&lt;img class="imageFilter" animal="panda" alt="sleeping" src=""&gt; 
 </code></pre>
 
 The selection of buttons and images have been stored in a variable for later use.
