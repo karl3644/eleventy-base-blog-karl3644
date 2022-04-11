@@ -13,10 +13,10 @@ layout: layouts/post.njk
 The page HTML contains 3 inputs - percentage, number & results display (deactivated), and a button.
 
 <pre><code>
-<input type="text" id="percentage" placeholder="Percentage">
-<input type="text" id="number" placeholder="Number">
-<input type="text" id="result" placeholder="result" disabled>
-<button onclick="percentageCalculator()">Calculate</button>
+input type="text" id="percentage" placeholder="Percentage"
+input type="text" id="number" placeholder="Number"
+input type="text" id="result" placeholder="result" disabled
+button onclick="percentageCalculator()">Calculate
 </code></pre>
 
 The button contains an onclick event listener which runs the percentage calculator function.
