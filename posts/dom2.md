@@ -19,13 +19,13 @@ Buttons were created with a class of `buttonFilter`. Each animal is given a butt
 </pre>
 
 16 image elements were also created containing pictures of the 4 animals. 
-<pre><code>
-<img animal="panda" alt="laying" src="https://images.pexels.com/photos/4444036/pexels-photo-4444036.jpeg?auto=compress&cs=tinysrgb&w=300">
-</code></pre>
+<code>
+<img animal="panda" alt="laying" src="">
+</code>
 
 A class of `imageFilter` has been added to each img element, and an attribute has been added to identify each animal `animal="panda"`
 <pre><code>
-<img class="imageFilter" animal="panda" alt="sleeping" src="https://images.pexels.com/photos/4741847/pexels-photo-4741847.jpeg?auto=compress&cs=tinysrgb&w=300">
+<img class="imageFilter" animal="panda" alt="sleeping" src="">
 </code></pre>
 
 The selection of buttons and images have been stored in a variable for later use.
