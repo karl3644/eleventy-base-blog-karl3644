@@ -12,40 +12,48 @@ In this lesson we learnt about declaring functions, invoking functions, using ar
 
 1. Task 1 is a function which outputs a sentence.
 
-`function outputSentence() {`
-    `console.log("This function outputs a sentence.")`
-`}`
+<pre><code>
+function outputSentence() {
+    console.log("This function outputs a sentence.")
+}
+</code></pre>
 
 2. Task 2 takes 2 arguments and concatenates them using template literals.
 
-`function concatName(firstName, lastName) {`
- `   console.log(`My name is ${firstName} ${lastName}.`)`
-`}`
+<pre><code>
+function concatName(firstName, lastName) {
+    console.log(`My name is ${firstName} ${lastName}.`)
+}
 
-`concatName("Karl", "Higgins")`
+concatName("Karl", "Higgins")
+</code></pre>
 
 3. Task 3 takes 2 arguments, concatenates them and returns the result after invoking.
 
-`function updatedConcatName(firstName, lastName) {`
-    `return ``My name is ${firstName} ${lastName} by using a return statement.``;`
-`}`
+<pre><code>
+function updatedConcatName(firstName, lastName) {
+    return ``My name is ${firstName} ${lastName} by using a return statement.``;
+}
 
-`console.log(updatedConcatName("Karl", "Higgins"));`
+console.log(updatedConcatName("Karl", "Higgins"));
+</code></pre>
 
 4. Task 4 takes an argument and outputs a string based on the input. 
 
-`let temperature = 55;`
+<pre><code>
+let temperature = 55;
 
-`function temperatureFunction(temperature) {`
-`    if(temperature < 0) {`
-`        console.log("Stay inside.");`
-`    } else if (temperature >=0 && temperature < 30) {`
-`        console.log("Wear a coat and hat.");`
-`    } else if (temperature >=30 && temperature < 50) {`
-`        console.log("Wear a coat.");`
-`    } else {`
-`        console.log("Just pants and vest is fine.");`
-`    }`
-`}`
+function temperatureFunction(temperature) {
+    if(temperature < 0) {
+        console.log("Stay inside.");
+    } else if (temperature >=0 && temperature < 30) {
+        console.log("Wear a coat and hat.");
+    } else if (temperature >=30 && temperature < 50) {
+        console.log("Wear a coat.");
+    } else {
+        console.log("Just pants and vest is fine.");
+    }
+}
 
-`temperatureFunction(temperature)`
+temperatureFunction(temperature)
+</code></pre>
