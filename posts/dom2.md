@@ -11,11 +11,11 @@ layout: layouts/post.njk
 Buttons were created with a class of `buttonFilter`. Each animal is given a button and a button was created to show all (5 in total).
 
 <pre><code>
-<input class="buttonFilter" type="radio" name="animalType" id="panda" value="panda">
-<label for="panda">Panda</label>
+`<input class="buttonFilter" type="radio" name="animalType" id="panda" value="panda">`
+`<label for="panda">Panda</label>`
 
-<input class="buttonFilter" type="radio" name="animalType" id="all" value="all" checked>
-<label class="buttonFilter" for="all" value="all">Show All</label>
+`<input class="buttonFilter" type="radio" name="animalType" id="all" value="all" checked>`
+`<label class="buttonFilter" for="all" value="all">Show All</label>`
 </code></pre>
 
 16 image elements were also created containing pictures of the 4 animals. 
